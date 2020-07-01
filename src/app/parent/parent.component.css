@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-area {
+    height: 60vh;
+    width: 100% !important;
+    box-shadow: inset 0px 0px 15px black;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: green; */
+}
+
+.card {
+    display: inline-block;
+    margin: 10px auto;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+<div class="container">
+    <p style="padding: 20px;margin: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque in aut, a quidem esse ullam animi, qui facere rem odit fugiat facilis labore magnam dolorem quaerat error obcaecati quasi consectetur saepe! Dolor optio minima ducimus obcaecati,
+        libero nisi repellat?</p>
+    <h1 #ele style="text-align: center; background-color: honeydew;">User Name Is <strong class="text-success"> {{userName}}</strong></h1>
+    <div class="row one">
+        <!-- <app-comp1></app-comp1>
+
+        -->
+        <div class="col-md-4">
+            <button (click)="chngChild()">Change Child Property</button>&nbsp;
+            <button (click)="callChild()">Call Child Method</button>
+
+        </div>
+        <div class="col-md-4">
+            <div class="custom-dropdown">
+                <span class="my-dropdown">
+                    My Dropdown
+                </span>
+                <span class="dropdown-header " appDropdown></span>
+                <div class="dropdown-content ">
+                    <a href="">item 1</a>
+                    <a href="">item 2</a>
+                    <a href="">item 3</a>
+                    <a href="">item 4</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <app-comp2>
+                <h1 #childContent>this is ng content Paragraph</h1>
+            </app-comp2>
+        </div>
+    </div>
+
+
+
+</div>

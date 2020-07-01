@@ -1,0 +1,59 @@
+<div class="page-area text-center">
+    <h2>Products</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolor nihil veritatis itaque harum aut repellendus commodi temporibus culpa minima!</p>
+    <hr>
+
+    <!-- <div class="alert alert-primary mr-auto d-flex align-items-center" *ngIf="checkout" role="alert"> -->
+    <div class="alert alert-primary mr-auto d-flex align-items-center" role="alert">
+
+        <strong class="text-success"></strong> &nbsp; is added to cart
+        <button class="btn btn-success ml-auto">Check Out</button>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card" appTestdirective>
+                <img src="https://img.etimg.com/thumb/msid-69907393,width-643,imgsize-247872,resizemode-4/tv-thumb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tv</h5>
+                    <p class="card-text">Some quick example text to build on the card title</p>
+                    <button (click)="send('Tv')" class="btn btn-primary">Tv</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" appTestdirective>
+                <img src="https://img.etimg.com/thumb/msid-69907393,width-643,imgsize-247872,resizemode-4/tv-thumb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Freeze</h5>
+                    <p class="card-text">Some quick example text to build on the card title</p>
+                    <button (click)="send('Freeze')" class="btn btn-primary">Freeze</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://img.etimg.com/thumb/msid-69907393,width-643,imgsize-247872,resizemode-4/tv-thumb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Washing Machine</h5>
+                    <p class="card-text">Some quick example text to build on the card title</p>
+                    <button (click)="send('Washing Machine')" class="btn btn-primary">Washing Machine</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://img.etimg.com/thumb/msid-69907393,width-643,imgsize-247872,resizemode-4/tv-thumb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fan</h5>
+                    <p class="card-text">Some quick example text to build on the card title </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <app-child class="w-100" [select]="slc" [product]="pro"></app-child>
+        </div>
+    </div>
+</div>

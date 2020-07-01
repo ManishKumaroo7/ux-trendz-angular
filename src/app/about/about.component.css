@@ -1,0 +1,11 @@
+.container {
+    height: 50vh;
+    width: 100%;
+    background-color: lightsalmon;
+    /* display: flex; */
+    /* position: absolute; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    /* align-items: center; */
+}

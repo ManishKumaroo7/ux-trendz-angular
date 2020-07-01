@@ -1,0 +1,12 @@
+<div class="container" style="border: 2px solid green;">
+    <h1 style="display: block; text-align: center; border: 2px solid white;">About Us</h1>
+
+    <div class="row" style="border: 2px solid green;display: flex;justify-content: center;">
+        <div class="col-md-6 ">
+            <app-comp1 [myValue]='valuee'></app-comp1>
+            <input class="form-control" type="text" placeholder="input here" #templ>
+            <button class="btn btn-dark" (click)=onSubmit(templ)>Submit</button>
+        </div>
+
+    </div>
+</div>
